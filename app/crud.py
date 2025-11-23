@@ -15,7 +15,7 @@ async def add_measurement(session,user_id: int, data: MeasurementCreateDTO):
 
     m = Measurement(user_id=user_id)
     session.add(m)
-    session.flush()  # measurement.id használatához
+    session.flush()
 
     for point in data.points:
         mp = MeasurementPoint(

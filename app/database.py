@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker, DeclarativeBase
 import pathlib
 import os
 
-# .env betöltése a projekt gyökérből
+
 env_path = pathlib.Path(__file__).parents[1] / ".env"
 load_dotenv(env_path)
 
