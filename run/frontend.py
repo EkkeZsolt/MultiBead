@@ -10,7 +10,7 @@ import pathlib
 env_path = pathlib.Path(__file__).parents[1] / ".env"
 load_dotenv(env_path)
 
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+API_URL = os.getenv("API_URL")
 
 
 st.set_page_config(page_title="Measurements & Scraper App", layout="centered")
