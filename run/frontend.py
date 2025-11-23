@@ -2,9 +2,15 @@ import streamlit as st
 import requests
 import plotly.express as px
 import pandas as pd
+from dotenv import load_dotenv
+import os
+import pathlib
 
 
-API_URL = "http://localhost:8000"
+env_path = pathlib.Path(__file__).parents[1] / ".env"
+load_dotenv(env_path)
+
+API_URL = os.getenv("API_URL", "http://localhost:8000")
 
 
 st.set_page_config(page_title="Measurements & Scraper App", layout="centered")
