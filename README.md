@@ -68,3 +68,6 @@ Ez megnyitja az alkalmazást a böngészőben (általában a `http://localhost:8
 - **Mérés hozzáadása**: Koordináták (x, y) rögzítése egy adott felhasználóhoz manuálisan vagy fájlból feltöltve.
 - **Mérés lekérdezése**: Mérés adatainak és pontjainak megjelenítése grafikonon.
 - **Könyv Scraper**: Könyvek adatainak (cím, ár, értékelés) lekaparása és elemzése.
+
+## Vagy egyszerően futtatod a 
+   setup.sh vagy setup.ps1
