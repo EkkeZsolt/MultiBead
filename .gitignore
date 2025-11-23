@@ -1,0 +1,12 @@
+__pycache__/fastapi.cpython-313.pyc
+__pycache__/backend.cpython-313.pyc
+__pycache__/api.cpython-313.pyc
+__pycache__/soup.cpython-313.pyc
+app/__pycache__/crud.cpython-313.pyc
+app/__pycache__/database.cpython-313.pyc
+app/__pycache__/models.cpython-313.pyc
+app/__pycache__/plot.cpython-313.pyc
+app/__pycache__/schemas.cpython-313.pyc
+app/__pycache__/soup.cpython-313.pyc
+app/__pycache__/test.cpython-313.pyc
+data.db
