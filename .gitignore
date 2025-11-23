@@ -7,3 +7,4 @@ app/__pycache__/soup.cpython-313.pyc
 app/__pycache__/test.cpython-313.pyc
 data.db
 run/__pycache__/backend.cpython-313.pyc
+.env
